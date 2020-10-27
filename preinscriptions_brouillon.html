@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Le Festival du Film de Plein Air - Parc Monceau - du 5 au 8 août</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles_brouillon.css" rel="stylesheet" />
+		<!--Script Calendrier Bootstrap/Datepicker -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.css"rel="stylesheet">
+    </head>
+    <body id="page-top">
+			
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">LE FILM DE PLEIN AIR</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="programme_brouillon.html">Programme</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="actualites_brouillon.html">Actualités</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="preinscriptions_brouillon.html">Préinscriptions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		
+		<!-- Nav mise en comm--
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">LE FILM DE PLEIN AIR</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="programme_brouillon.html">Programme</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="actualites_brouillon.html">Actualités</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="preinscriptions_brouillon.html">Préinscriptions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>>
+		
+		
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Préinscriptions</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Préinscrivez-vous en indiquant le jour de votre venue - du 5 août au 8 août - le nombre de participants, votre nom et votre adresse e-mail. Une pièce justificative vous sera demandée à l'entrée du festival. Merci !</h2>
+					<i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+				</div>
+			</div>
+		</header>
+			
+                    <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-10 mx-auto text-center">
+                        <form class="form">
+							<div class="form-group">
+							<label for="form-control datepicker">Choississez votre date de venue (du 5 au 8 août 2021 inclus) : </label>
+							<input type="text" class="form-control datepicker" placeholder="Sélectionnez une date">
+
+								<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+								<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+								<script>
+;(function($){
+$.fn.datepicker.dates['fr'] = {
+days: ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
+daysShort: ["dim.", "lun.", "mar.", "mer.", "jeu.", "ven.", "sam."],
+daysMin: ["d", "l", "ma", "me", "j", "v", "s"],
+months: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+monthsShort: ["janv.", "févr.", "mars", "avril", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."],
+today: "Aujourd'hui",
+monthsTitle: "Mois",
+clear: "Effacer",
+weekStart: 1,
+format: "dd/mm/yyyy"
+};
+}(jQuery));
+
+$('.datepicker').datepicker({
+language: 'fr',
+autoclose: true,
+todayHighlight: true
+})
+</script>
+							</div>
+							<div class="form-group">
+									<label for="form-control text-white-50 mx-auto mt-2 mb-5">Nombre de participants : </label>
+									<select class="form-control" id="inputNumber">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+										<option>17</option>
+										<option>18</option>
+										<option>19</option>
+										<option>20</option>
+									</select>
+								</div>
+								<div class="form-group">
+								<label for="form-control inputName">Nom et prénom : </label>
+									<input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputName" type="text" placeholder="Nom, prénom" />
+								</div>
+								<div class="form-group">
+								<label for="form-control inputEmail">Adresse e-mail :</label>
+									<input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Entrez votre adresse e-mail" />
+								</div>
+							
+                            <button class="btn btn-primary mx-auto">Valider</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © A. Goarnisson 2020. Crédit photo Sébastien Lucas.</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
