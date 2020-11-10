@@ -500,17 +500,6 @@ mark,
   height: auto;
 }
 
-.affiches {
-  padding: none;
-  width: 300px;
-  height: 400px;
-  margin: auto;
-}
-
-.checked {
-  color: orange;
-}
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
